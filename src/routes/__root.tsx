@@ -81,9 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "CookWise is your AI cooking assistant, built for beginners. Get clear, step-by-step recipes you can actually follow." },
       { name: "author", content: "CookWise" },
       { property: "og:title", content: "CookWise — AI Recipes for Beginner Cooks" },
-      { property: "og:description", content: "Tell CookWise what you want to cook and get a clear, step-by-step recipe you can actually follow." },
+      { property: "og:description", content: "CookWise is your AI cooking assistant, built for beginners. Get clear, step-by-step recipes you can actually follow." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "CookWise — AI Recipes for Beginner Cooks" },
+      { name: "twitter:description", content: "CookWise is your AI cooking assistant, built for beginners. Get clear, step-by-step recipes you can actually follow." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4fcc86bb-ddfe-49b8-ba2e-ed78867f187d/id-preview-1ca8ec8f--741642a3-367e-4377-8efe-54bc6b2740fb.lovable.app-1783581458409.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/4fcc86bb-ddfe-49b8-ba2e-ed78867f187d/id-preview-1ca8ec8f--741642a3-367e-4377-8efe-54bc6b2740fb.lovable.app-1783581458409.png" },
     ],
     links: [
       {
